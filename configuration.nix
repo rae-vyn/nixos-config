@@ -31,7 +31,7 @@
   boot.kernelParams = [ "nvme_core.default_ps_max_latency_us=8000" ];
   networking.hostName = "raevyn-pc"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
-
+  # testing the new script! again!
   # Configure network proxy if necessary
   # networking.proxy.default = "http://user:password@proxy:port/";
   # networking.proxy.noProxy = "127.0.0.1,localhost,internal.domain";
@@ -119,6 +119,7 @@
   #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
   #  wget
     pkgs.obsidian
+    pkgs.steam
     pkgs.testdisk
     pkgs.ntfs3g
     pkgs.discord-ptb
