@@ -162,6 +162,7 @@
     pkgs.vscode
     pkgs.asusctl
     pkgs.betterdiscordctl
+    pkgs.premid
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
