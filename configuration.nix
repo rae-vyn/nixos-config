@@ -163,6 +163,7 @@
     pkgs.asusctl
     pkgs.betterdiscordctl
     pkgs.premid
+    pkgs.fuse3
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
