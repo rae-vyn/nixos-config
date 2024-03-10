@@ -165,6 +165,7 @@
     pkgs.premid
     pkgs.fuse3
     pkgs.appimage-run
+    pkgs.rustup
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
