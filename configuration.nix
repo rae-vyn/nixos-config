@@ -161,6 +161,7 @@
     pkgs.newsflash
     pkgs.vscode
     pkgs.asusctl
+    pkgs.betterdiscordctl
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
