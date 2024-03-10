@@ -164,6 +164,7 @@
     pkgs.betterdiscordctl
     pkgs.premid
     pkgs.fuse3
+    pkgs.appimage-run
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
