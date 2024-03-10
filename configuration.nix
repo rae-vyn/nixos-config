@@ -159,6 +159,7 @@
     pkgs.steam-run
     pkgs.newsflash
     pkgs.vscode
+    pkgs.asusctl
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
