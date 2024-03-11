@@ -167,6 +167,8 @@
     pkgs.appimage-run
     pkgs.rustup
     pkgs.gcc
+    pkgs.wine
+    pkgs.winetricks
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
