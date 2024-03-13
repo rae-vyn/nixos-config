@@ -169,6 +169,7 @@
     pkgs.gcc
     pkgs.wine
     pkgs.winetricks
+    pkgs.libreoffice
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
