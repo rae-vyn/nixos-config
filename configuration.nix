@@ -170,6 +170,7 @@
     pkgs.wine
     pkgs.winetricks
     pkgs.libreoffice
+    pkgs.fwupd
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
