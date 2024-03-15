@@ -173,6 +173,7 @@
     pkgs.fwupd
     pkgs.zsh
     pkgs.neofetch
+    pkgs.starship
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
