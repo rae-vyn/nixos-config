@@ -171,6 +171,7 @@
     pkgs.winetricks
     pkgs.libreoffice
     pkgs.fwupd
+    pkgs.zsh
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
