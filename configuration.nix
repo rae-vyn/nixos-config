@@ -174,6 +174,7 @@
     pkgs.zsh
     pkgs.neofetch
     pkgs.starship
+    pkgs.bottles
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
