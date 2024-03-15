@@ -175,6 +175,7 @@
     pkgs.neofetch
     pkgs.starship
     pkgs.bottles
+    pkgs.openrgb
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
