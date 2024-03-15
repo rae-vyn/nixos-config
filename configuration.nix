@@ -172,6 +172,7 @@
     pkgs.libreoffice
     pkgs.fwupd
     pkgs.zsh
+    pkgs.neofetch
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
