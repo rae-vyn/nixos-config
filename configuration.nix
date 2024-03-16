@@ -148,7 +148,6 @@
     pkgs.swappy
     pkgs.slurp
     pkgs.dolphin
-    pkgs.gnome.nautilus
     pkgs.spotify-tui
     pkgs.spotifyd
     pkgs.python3
