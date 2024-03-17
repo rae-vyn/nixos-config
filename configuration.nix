@@ -132,7 +132,11 @@
     pkgs.steam
     pkgs.testdisk
     pkgs.ntfs3g
-    pkgs.discord-ptb
+    (pkgs.discord.override {
+       # remove any overrides that you don't want
+      withOpenASAR = true;
+      withVencord = true;
+    })
     pkgs.neovim
     pkgs.neovim-qt
     pkgs.git
