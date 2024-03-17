@@ -175,6 +175,7 @@
     pkgs.starship
     pkgs.bottles
     pkgs.openrgb
+    pkgs.snmp
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
