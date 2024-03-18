@@ -190,6 +190,7 @@
     pkgs.music-player
     pkgs.termusic
     pkgs.nuclear
+    pkgs.musikcube
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
