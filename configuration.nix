@@ -185,6 +185,7 @@
     pkgs.bottles
     pkgs.openrgb
     pkgs.authenticator
+    pkgs.spotify-tui
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
