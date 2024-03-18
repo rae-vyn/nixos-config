@@ -187,6 +187,7 @@
     pkgs.authenticator
     pkgs.spotify-tui
     pkgs.speedtest-rs
+    pkgs.music-player
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
