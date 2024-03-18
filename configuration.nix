@@ -189,6 +189,7 @@
     pkgs.speedtest-rs
     pkgs.music-player
     pkgs.termusic
+    pkgs.nuclear
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
