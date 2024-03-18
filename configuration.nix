@@ -184,6 +184,7 @@
     pkgs.starship
     pkgs.bottles
     pkgs.openrgb
+    pkgs.authenticator
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
