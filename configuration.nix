@@ -188,6 +188,7 @@
     pkgs.spotify-tui
     pkgs.speedtest-rs
     pkgs.music-player
+    pkgs.termusic
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
