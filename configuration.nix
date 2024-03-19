@@ -191,6 +191,7 @@
     pkgs.termusic
     pkgs.nuclear
     pkgs.musikcube
+    pkgs.lutris
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
