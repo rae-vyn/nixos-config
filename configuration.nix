@@ -192,6 +192,7 @@
     pkgs.nuclear
     pkgs.musikcube
     pkgs.lutris
+    pkgs.lsd
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
