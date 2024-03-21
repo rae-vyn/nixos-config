@@ -194,7 +194,7 @@
     pkgs.lutris
     pkgs.lsd
     pkgs.fzf
-    pkgs.caffeine
+    pkgs.caffeine-ng
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
