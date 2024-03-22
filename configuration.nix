@@ -200,7 +200,6 @@
     pkgs.xsane
     pkgs.swingsane
     pkgs.libsForQt5.skanlite
-    pkgs.googleearth-pro
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
