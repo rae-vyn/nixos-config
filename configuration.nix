@@ -197,6 +197,7 @@
     pkgs.caffeine-ng
     pkgs.sane-backends
     pkgs.sane-frontends
+    pkgs.xsane
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
