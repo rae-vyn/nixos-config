@@ -199,6 +199,7 @@
     pkgs.sane-frontends
     pkgs.xsane
     pkgs.swingsane
+pkgs.libsForQt5.skanlite
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
