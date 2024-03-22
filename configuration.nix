@@ -198,6 +198,7 @@
     pkgs.sane-backends
     pkgs.sane-frontends
     pkgs.xsane
+    pkgs.swingsane
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
