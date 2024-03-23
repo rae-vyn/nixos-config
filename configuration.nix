@@ -185,7 +185,7 @@
     pkgs.bottles
     pkgs.openrgb
     pkgs.authenticator
-    pkgs.spotify-tui
+    pkgs.spotify
     pkgs.speedtest-rs
     pkgs.music-player
     pkgs.termusic
