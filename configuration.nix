@@ -157,7 +157,6 @@
     pkgs.swappy
     pkgs.slurp
     pkgs.dolphin
-    pkgs.spotify-tui
     pkgs.spotifyd
     pkgs.python3
     pkgs.yt-dlp
