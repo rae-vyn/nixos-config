@@ -200,7 +200,7 @@
     pkgs.swingsane
     pkgs.libsForQt5.skanlite
     pkgs.fanctl
-    pkgs.asus-fan-control
+    pkgs.asusctl
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
