@@ -202,6 +202,7 @@
     pkgs.fanctl
     pkgs.asusctl
     pkgs.peaclock
+    pkgs.libsForQt5.plasma-browser-integration
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
