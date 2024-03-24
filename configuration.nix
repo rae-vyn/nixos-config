@@ -201,6 +201,7 @@
     pkgs.libsForQt5.skanlite
     pkgs.fanctl
     pkgs.asusctl
+    pkgs.peaclock
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
