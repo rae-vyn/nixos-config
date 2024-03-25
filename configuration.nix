@@ -96,6 +96,8 @@
     # no need to redefine it in your config for now)
     #media-session.enable = true;
   };
+
+  programs.dconf.enable = true;
   services.xserver.enable = true;
   services.xserver.displayManager.sddm.enable = true;
   services.xserver.desktopManager.plasma5.enable = true;
@@ -125,8 +127,6 @@
     dedicatedServer.openFirewall = true; # Open ports in the firewall for Source Dedicated Server
   };
 
-  hardware.pulseaudio.enable = true;
-  hardware.pulseaudio.support32Bit = true;
 
   programs.rog-control-center.enable = true;
   environment.systemPackages = with pkgs; [
