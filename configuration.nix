@@ -197,7 +197,7 @@
     pkgs.lutris
     pkgs.lsd
     pkgs.fzf
-    pkgs.caffeine
+    pkgs.caffeine-ng
     pkgs.sane-backends
     pkgs.sane-frontends
     pkgs.xsane
