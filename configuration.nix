@@ -207,6 +207,7 @@
     pkgs.asusctl
     pkgs.peaclock
     pkgs.pulseaudio
+    pkgs.reaper
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
