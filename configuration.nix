@@ -210,6 +210,7 @@
     pkgs.reaper
     pkgs.vital
     pkgs.toybox
+    pkgs.r2modman
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
