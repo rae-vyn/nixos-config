@@ -209,6 +209,7 @@
     pkgs.peaclock
     pkgs.pulseaudio
     pkgs.reaper
+    pkgs.vital
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
