@@ -8,8 +8,9 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
+      <musnix>
     ];
-
+  musnix.enable = true;
   hardware.bluetooth = {
     enable = true;
     settings = {
@@ -108,7 +109,7 @@
   users.users.raevyn = {
     isNormalUser = true;
     description = "Raevyn";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "audio"];
     packages = with pkgs; [
       firefox
     #  thunderbird

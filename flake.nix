@@ -8,7 +8,7 @@
       specialArgs = inputs;
       modules = [ 
         ./configuration.nix
-	./spicetify.nix
+	      ./spicetify.nix
       ];
     };
   };
