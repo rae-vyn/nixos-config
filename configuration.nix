@@ -209,7 +209,7 @@
     pkgs.pulseaudio
     pkgs.reaper
     pkgs.vital
-    pkgs.lspci
+    pkgs.toybox
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
