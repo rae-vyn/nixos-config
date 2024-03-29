@@ -7,7 +7,7 @@
       system = "x86_64-linux";
       specialArgs = inputs;
       modules = [
-      	musnix.nixosModles.musnix
+      	musnix.nixosModules.musnix
         ./configuration.nix
 	./spicetify.nix
       ];
