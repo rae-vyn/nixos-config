@@ -8,7 +8,6 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
-      /home/raevyn/musnix
     ];
   musnix.enable = true;
   hardware.bluetooth = {
@@ -210,6 +209,7 @@
     pkgs.pulseaudio
     pkgs.reaper
     pkgs.vital
+    pkgs.lspci
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
