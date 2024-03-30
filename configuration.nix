@@ -212,6 +212,7 @@
     pkgs.toybox
     pkgs.r2modman
     pkgs.flyctl
+    pkgs.docker
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
