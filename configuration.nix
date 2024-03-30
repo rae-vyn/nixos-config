@@ -64,7 +64,7 @@
     xkbVariant = "";
   };
   
-  virtualization.docker.enable = true;
+  virtualisation.docker.enable = true;
   services.tlp.enable = false;
 
   # Enable CUPS to print documents.
