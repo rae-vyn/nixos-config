@@ -214,6 +214,7 @@
     pkgs.r2modman
     pkgs.flyctl
     pkgs.docker
+    pkgs.freetube
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
