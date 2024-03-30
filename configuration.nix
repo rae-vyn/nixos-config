@@ -211,6 +211,7 @@
     pkgs.vital
     pkgs.toybox
     pkgs.r2modman
+    pkgs.flyctl
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
