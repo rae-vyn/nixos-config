@@ -215,6 +215,7 @@
     pkgs.flyctl
     pkgs.docker
     pkgs.freetube
+    pkgs.gdtoolkit
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
