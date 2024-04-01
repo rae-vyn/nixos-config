@@ -228,6 +228,7 @@
     pkgs.gdtoolkit
     pkgs.yabridge
     pkgs.yabridgectl
+    pkgs.libpulseaudio
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
