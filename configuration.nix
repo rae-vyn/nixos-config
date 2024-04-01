@@ -229,6 +229,7 @@
     pkgs.yabridge
     pkgs.yabridgectl
     pkgs.libpulseaudio
+    pkgs.noisetorch
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
