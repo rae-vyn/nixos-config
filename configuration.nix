@@ -216,6 +216,8 @@
     pkgs.docker
     pkgs.freetube
     pkgs.gdtoolkit
+    pkgs.yabridge
+    pkgs.yabridgectl
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
