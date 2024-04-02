@@ -145,7 +145,7 @@
     enable = true;
     defaultEditor = true;
     plugins = [
-      vimPlugins.nvim-treesitter
+      pkgs.vimPlugins.nvim-treesitter
       pkgs.vimPlugins.nvim-treesitter.withAllGrammars
     ];
   };
