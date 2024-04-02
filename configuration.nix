@@ -141,7 +141,14 @@
 
   programs.rog-control-center.enable = true;
   programs.noisetorch.enable = true;
-
+  programs.neovim = {
+    enable = true;
+    defaultEditor = true;
+    plugins = [
+      vimPlugins.nvim-treesitter
+      pkgs.vimPlugins.nvim-treesitter.withAllGrammars
+    ];
+  };
   environment.systemPackages = with pkgs; [
   #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
   #  wget
@@ -154,8 +161,6 @@
       withVencord = true;
     })
     pkgs.discord-ptb
-    pkgs.neovim
-    pkgs.neovim-qt
     pkgs.git
     pkgs.gitFull
     pkgs.gh
