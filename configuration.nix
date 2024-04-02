@@ -233,6 +233,7 @@
     pkgs.libpulseaudio
     pkgs.noisetorch
     pkgs.easyeffects
+    pkgs.rpcs3
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
