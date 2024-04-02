@@ -234,6 +234,7 @@
     pkgs.noisetorch
     pkgs.easyeffects
     pkgs.rpcs3
+    pkgs.vimPlugins.LazyVim
     # Hyprland Stuff
     pkgs.kitty
     pkgs.eww-wayland
