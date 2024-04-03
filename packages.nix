@@ -11,7 +11,6 @@
                 withVencord = true;
             }
         )
-        discord-ptb
         mpv
         dolphin # File Manager
         libreoffice
