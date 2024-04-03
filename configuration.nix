@@ -8,6 +8,7 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
+      ./packages.nix
     ];
   musnix.enable = true;
   hardware.bluetooth = {
@@ -145,109 +146,7 @@
     enable = true;
     defaultEditor = true;
   };
-  environment.systemPackages = with pkgs; [
-  #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
-  #  wget
-    pkgs.obsidian
-    pkgs.steam
-    pkgs.testdisk
-    pkgs.ntfs3g
-    (pkgs.discord.override {
-       # remove any overrides that you don't want
-      withVencord = true;
-    })
-    pkgs.discord-ptb
-    pkgs.git
-    pkgs.gitFull
-    pkgs.gh
-    pkgs.github-desktop
-    pkgs.spicetify-cli
-    pkgs.tidal-dl
-    pkgs.pavucontrol
-    pkgs.networkmanagerapplet
-    pkgs.playerctl
-    pkgs.brightnessctl
-    pkgs.bluez
-    pkgs.bluez-tools
-    pkgs.blueberry
-    pkgs.mpv
-    pkgs.grim
-    pkgs.swappy
-    pkgs.slurp
-    pkgs.dolphin
-    pkgs.spotifyd
-    pkgs.python3
-    pkgs.yt-dlp
-    pkgs.wineWow64Packages.waylandFull
-    pkgs.godot_4
-    pkgs.inotify-tools
-    pkgs.killall
-    pkgs.steam-run
-    pkgs.newsflash
-    pkgs.vscode
-    pkgs.asusctl
-    pkgs.betterdiscordctl
-    pkgs.premid
-    pkgs.fuse3
-    pkgs.appimage-run
-    pkgs.rustup
-    pkgs.gcc
-    pkgs.wine
-    pkgs.winetricks
-    pkgs.libreoffice
-    pkgs.fwupd
-    pkgs.zsh
-    pkgs.neofetch
-    pkgs.starship
-    pkgs.bottles
-    pkgs.openrgb
-    pkgs.authenticator
-    pkgs.spotify
-    pkgs.speedtest-rs
-    pkgs.music-player
-    pkgs.termusic
-    pkgs.nuclear
-    pkgs.musikcube
-    pkgs.lutris
-    pkgs.lsd
-    pkgs.fzf
-    pkgs.caffeine-ng
-    pkgs.sane-backends
-    pkgs.sane-frontends
-    pkgs.xsane
-    pkgs.swingsane
-    pkgs.libsForQt5.skanlite
-    pkgs.fanctl
-    pkgs.asusctl
-    pkgs.peaclock
-    pkgs.pulseaudio
-    pkgs.reaper
-    pkgs.vital
-    pkgs.toybox
-    pkgs.r2modman
-    pkgs.flyctl
-    pkgs.docker
-    pkgs.freetube
-    pkgs.gdtoolkit
-    pkgs.yabridge
-    pkgs.yabridgectl
-    pkgs.libpulseaudio
-    pkgs.noisetorch
-    pkgs.easyeffects
-    pkgs.rpcs3
-    pkgs.vimPlugins.LazyVim
-    # Hyprland Stuff
-    pkgs.kitty
-    pkgs.eww-wayland
-    pkgs.waybar
-    pkgs.dunst
-    libnotify
-    swww
-    rofi-wayland
-    pkgs.xdg-desktop-portal-gtk
-    pkgs.xdg-desktop-portal-hyprland
-    pkgs.xwaylandvideobridge
-  ];
+
   nixpkgs.config.permittedInsecurePackages = [
      "electron-25.9.0"
   ];
