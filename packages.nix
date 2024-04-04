@@ -50,7 +50,7 @@
         pulseaudio
         libpulseaudio
         xdg-desktop-portal-gtk
-
+        
         # Command Line Utilities
         # Packages that enhance my command line experience
         # ---------------------------------------------------------------
