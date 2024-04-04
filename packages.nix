@@ -74,6 +74,7 @@
         toybox
         yabridge
         yabridgectl
+        brightnessctl
 
         # Misc
         # Packages that are here just to do... stuff
