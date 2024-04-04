@@ -50,6 +50,7 @@
         pulseaudio
         libpulseaudio
         xdg-desktop-portal-gtk
+        libsForQt5.qtstyleplugin-kvantum
         
         # Command Line Utilities
         # Packages that enhance my command line experience
