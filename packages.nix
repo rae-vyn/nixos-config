@@ -51,6 +51,7 @@
         libpulseaudio
         xdg-desktop-portal-gtk
         libsForQt5.qtstyleplugin-kvantum
+        applet-window-buttons
         
         # Command Line Utilities
         # Packages that enhance my command line experience
@@ -76,6 +77,8 @@
         yabridge
         yabridgectl
         brightnessctl
+        gnumake
+        cmake
 
         # Misc
         # Packages that are here just to do... stuff
