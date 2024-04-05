@@ -19,7 +19,7 @@ in
 
       enabledExtensions = with spicePkgs.extensions; [
         shuffle # shuffle+ (special characters are sanitized out of ext names)
-        hidePodcasts
+        #hidePodcasts
 	      adblock
         playlistIcons
         fullScreen
