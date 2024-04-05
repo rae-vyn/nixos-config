@@ -25,6 +25,10 @@ in
       theme = {
         name = "Default Dynamic";
         src = defaultDynamic;
+        injectCss = true;
+        replaceColors = true;
+        overwriteAssets = true;
+        sidebarConfig = true;
       };
 
       enabledExtensions = with spicePkgs.extensions; [
