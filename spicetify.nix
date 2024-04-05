@@ -15,14 +15,25 @@ in
   programs.spicetify =
     {
       enable = true;
-      theme = spicePkgs.themes.catppuccin;
-      colorScheme = "mocha";
+      theme = spicePkgs.themes.DefaultDynamic;
 
       enabledExtensions = with spicePkgs.extensions; [
-        fullAppDisplay
         shuffle # shuffle+ (special characters are sanitized out of ext names)
         hidePodcasts
-	adblock
+	      adblock
+        playlistIcons
+        fullScreen
+        powerBar
+        fullAlbumDate
+      ];
+      enabledCustomApps = with spicePkgs.apps; [
+        new-releases
+        {
+          name = "localFiles";
+          src = localFilesSrc;
+          appendName = false;
+        }
+        lyrics-plus
       ];
     };
 }
