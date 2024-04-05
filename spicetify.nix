@@ -13,23 +13,9 @@ in
 
   # configure spicetify :)
   programs.spicetify =
-    let
-      defaultDynamic = pkgs.fetchgit {
-        url = "https://github.com/JulienMaille/spicetify-dynamic-theme";
-        rev = "7b884c9ed0e1828610ac429dd01de23b59590513";
-        sha256 = "sha256-NHkvSmNv1go60JQ4i1noVM/GBQVTTsZ2SMBtCYZNztk=";
-      };
-    in
     {
       enable = true;
-      theme = {
-        name = "DefaultDynamic";
-        src = "./defaultDynamicSrc.json";
-        injectCss = true;
-        replaceColors = true;
-        overwriteAssets = true;
-        sidebarConfig = true;
-      };
+      theme = spicePkgs.themes.DefaultDynamic;
 
       enabledExtensions = with spicePkgs.extensions; [
         shuffle # shuffle+ (special characters are sanitized out of ext names)

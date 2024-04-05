@@ -1,5 +1,5 @@
 {
-  inputs.spicetify-nix.url = "github:the-argus/spicetify-nix";
+  inputs.spicetify-nix.url = "github:A1ca7raz/spicetify-nix";
   inputs.musnix.url = "github:musnix/musnix";
   outputs = { nixpkgs, musnix, ... } @inputs : {
     # replace 'joes-desktop' with your hostname here.
