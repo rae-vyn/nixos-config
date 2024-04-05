@@ -83,6 +83,8 @@
         protonvpn-gui
         nix-prefetch-git
         nix-prefetch-github
+        latte-dock
+
         # Misc
         # Packages that are here just to do... stuff
         # ---------------------------------------------------------------
