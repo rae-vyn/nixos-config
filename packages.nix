@@ -51,7 +51,8 @@
         libpulseaudio
         xdg-desktop-portal-gtk
         libsForQt5.qtstyleplugin-kvantum
-        applet-window-buttons
+        libsForQt5.applet-window-buttons
+        glava
         
         # Command Line Utilities
         # Packages that enhance my command line experience
@@ -79,6 +80,7 @@
         brightnessctl
         gnumake
         cmake
+        protonvpn-gui
 
         # Misc
         # Packages that are here just to do... stuff
