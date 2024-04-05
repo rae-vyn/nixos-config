@@ -81,7 +81,8 @@
         gnumake
         cmake
         protonvpn-gui
-
+        nix-prefetch-git
+        nix-prefetch-github
         # Misc
         # Packages that are here just to do... stuff
         # ---------------------------------------------------------------
