@@ -15,7 +15,7 @@ in
   programs.spicetify =
     let
       defaultDynamic = pkgs.fetchgit {
-        url = "https://github.com/hroland/spicetify-show-local-files/";
+        url = "https://github.com/JulienMaille/spicetify-dynamic-theme";
         rev = "7b884c9ed0e1828610ac429dd01de23b59590513";
         sha256 = "sha256-NHkvSmNv1go60JQ4i1noVM/GBQVTTsZ2SMBtCYZNztk=";
       };
@@ -23,7 +23,7 @@ in
     {
       enable = true;
       theme = {
-        name = "Default Dynamic";
+        name = "DefaultDynamic";
         src = defaultDynamic;
         injectCss = true;
         replaceColors = true;
