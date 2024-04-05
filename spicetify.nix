@@ -28,11 +28,7 @@ in
       ];
       enabledCustomApps = with spicePkgs.apps; [
         new-releases
-        {
-          name = "localFiles";
-          src = localFilesSrc;
-          appendName = false;
-        }
+        localFiles
         lyrics-plus
       ];
     };
