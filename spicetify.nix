@@ -24,7 +24,7 @@ in
       enable = true;
       theme = {
         name = "DefaultDynamic";
-        src = defaultDynamic;
+        src = "./defaultDynamicSrc.json";
         injectCss = true;
         replaceColors = true;
         overwriteAssets = true;
