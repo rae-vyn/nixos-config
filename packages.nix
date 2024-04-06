@@ -22,6 +22,7 @@
         vital
         easyeffects
         rpcs3
+        thunderbird
 
         # Programming & Development
         # Packages vital to my programming and game dev work.
