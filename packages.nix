@@ -5,6 +5,7 @@
         # Packages I use every day, or something like it.
         # --------------------------------------------------------------
         obsidian
+        logseq
         steam
         (
             discord.override {
