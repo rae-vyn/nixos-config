@@ -24,6 +24,7 @@
         easyeffects
         rpcs3
         thunderbird
+        nushell
 
         # Programming & Development
         # Packages vital to my programming and game dev work.
