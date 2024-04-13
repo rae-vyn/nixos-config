@@ -14,7 +14,7 @@
       buildInputs =
         old.buildInputs
         ++ [
-          (pkgs.nimPackages.buildNimPackage
+          (pkgs.buildNimPackage
             rec {
               pname = "oauth";
               version = "b8c163b0d9cfad6d29ce8c1fb394e5f47182ee1c";
@@ -27,7 +27,7 @@
               };
 
               propagatedBuildInputs = [
-                (pkgs.nimPackages.buildNimPackage
+                (pkgs.buildNimPackage
                   rec {
                     pname = "sha1";
                     version = "92ccc5800bb0ac4865b275a2ce3c1544e98b48bc";
