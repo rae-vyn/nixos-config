@@ -126,6 +126,7 @@
     #  thunderbird
     ];
   };
+  system.nssDatabases.hosts = [""];
   services.hardware.openrgb.enable = true;
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
