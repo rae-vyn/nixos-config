@@ -46,6 +46,8 @@
         neofetch
         authenticator
         gdtoolkit
+        kitty
+        wezterm
 
         # Computer Stuff
         # Drivers, interfaces, and the like
