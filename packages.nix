@@ -27,6 +27,7 @@
         rpcs3
         thunderbird
         nushell
+        bitwig-studio
 
         # Programming & Development
         # Packages vital to my programming and game dev work.
