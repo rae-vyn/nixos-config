@@ -126,6 +126,7 @@
     #  thunderbird
     ];
   };
+  services.nscd.enable = true;
   system.nssDatabases.hosts = [""];
   services.hardware.openrgb.enable = true;
   # Allow unfree packages
