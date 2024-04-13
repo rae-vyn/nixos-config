@@ -19,6 +19,7 @@
         spotify
         musikcube
         termusic
+        strawberry
         freetube
         reaper
         vital
