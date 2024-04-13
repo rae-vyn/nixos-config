@@ -18,6 +18,7 @@
         zsh
         spotify
         musikcube
+        termusic
         freetube
         reaper
         vital
