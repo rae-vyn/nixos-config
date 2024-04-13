@@ -1,0 +1,19 @@
+{
+    "cargoLocks": null,
+    "date": "2023-10-23",
+    "extract": null,
+    "name": "defaultDynamicSrc",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+        "deepClone": false,
+        "fetchSubmodules": false,
+        "leaveDotGit": false,
+        "name": null,
+        "rev": "7b884c9ed0e1828610ac429dd01de23b59590513",
+        "sha256": "sha256-NHkvSmNv1go60JQ4i1noVM/GBQVTTsZ2SMBtCYZNztk=",
+        "type": "git",
+        "url": "https://github.com/JulienMaille/spicetify-dynamic-theme"
+    },
+    "version": "914eb1227d11d6c7cd9d63aa002a9ff0cdf618ea"
+}
