@@ -56,6 +56,7 @@
         libsForQt5.qtstyleplugin-kvantum
         libsForQt5.applet-window-buttons
         glava
+        traceroute
         
         # Command Line Utilities
         # Packages that enhance my command line experience
