@@ -48,6 +48,7 @@
         gdtoolkit
         kitty
         wezterm
+        pulsar
 
         # Computer Stuff
         # Drivers, interfaces, and the like
