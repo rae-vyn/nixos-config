@@ -49,6 +49,7 @@
         kitty
         wezterm
         morgen
+        rogue
         
         # Computer Stuff
         # Drivers, interfaces, and the like
