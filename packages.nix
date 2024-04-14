@@ -48,8 +48,8 @@
         gdtoolkit
         kitty
         wezterm
-        pulsar
-
+        morgen
+        
         # Computer Stuff
         # Drivers, interfaces, and the like
         # ---------------------------------------------------------------
