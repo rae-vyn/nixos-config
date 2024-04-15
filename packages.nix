@@ -30,6 +30,7 @@
         bitwig-studio
         audacious
         cemu
+        lmms
 
         # Programming & Development
         # Packages vital to my programming and game dev work.
@@ -52,7 +53,7 @@
         morgen
         rogue
         thefuck
-    
+
         
         # Computer Stuff
         # Drivers, interfaces, and the like
