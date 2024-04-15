@@ -51,6 +51,8 @@
         wezterm
         morgen
         rogue
+        thefuck
+    
         
         # Computer Stuff
         # Drivers, interfaces, and the like
