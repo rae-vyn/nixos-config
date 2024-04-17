@@ -52,8 +52,12 @@
         wezterm
         morgen
         rogue
-        thefuck
 
+        # Hacking & Pentesting
+        # Packages vital to my *other* programming
+        # ---------------------------------------------------------------
+        nmap
+        whois
         
         # Computer Stuff
         # Drivers, interfaces, and the like
