@@ -58,6 +58,7 @@
         # ---------------------------------------------------------------
         nmap
         whois
+        wireshark-qt
         
         # Computer Stuff
         # Drivers, interfaces, and the like
