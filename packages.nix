@@ -54,7 +54,8 @@
         rogue
         gleam
         go
-
+        erlang 
+        
         # Hacking & Pentesting
         # Packages vital to my *other* programming
         # ---------------------------------------------------------------
