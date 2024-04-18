@@ -109,6 +109,7 @@
         nix-prefetch-github
         latte-dock
         tlp
+        rpi-imager
 
         # Misc
         # Packages that are here just to do... stuff
