@@ -108,6 +108,7 @@
         nix-prefetch-git
         nix-prefetch-github
         latte-dock
+        tlp
 
         # Misc
         # Packages that are here just to do... stuff
