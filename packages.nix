@@ -52,6 +52,8 @@
         wezterm
         morgen
         rogue
+        gleam
+        go
 
         # Hacking & Pentesting
         # Packages vital to my *other* programming

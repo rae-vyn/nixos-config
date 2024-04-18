@@ -142,7 +142,6 @@
     dedicatedServer.openFirewall = true; # Open ports in the firewall for Source Dedicated Server
   };
 
-
   programs.rog-control-center.enable = true;
   programs.noisetorch.enable = true;
   programs.neovim = {
