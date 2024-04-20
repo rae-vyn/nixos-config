@@ -43,6 +43,7 @@
   networking.networkmanager.enable = true;
 
   # Mount my NAS
+  services.rpcbind.enable = true;
   fileSystems."/mnt/NASty" = {
     device = "raspberrypi.local:/NASty";
     fsType = "nfs";
