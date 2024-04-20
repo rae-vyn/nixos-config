@@ -42,6 +42,12 @@
   # Enable networking
   networking.networkmanager.enable = true;
 
+  # Mount my NAS
+  fileSystems."/mnt/NASty" = {
+    device = "raspberrypi.local:/NASty";
+    fsType = "nfs";
+  }
+
   # Set your time zone.
   time.timeZone = "America/New_York";
 
