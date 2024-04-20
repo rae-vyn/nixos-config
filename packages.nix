@@ -33,6 +33,7 @@
         lmms
         inkscape
         refind
+        efibootmgr
 
         # Programming & Development
         # Packages vital to my programming and game dev work.
