@@ -60,6 +60,7 @@
         erlang 
         python3
         python311Packages.pip
+        pkg-config
         
         # Hacking & Pentesting
         # Packages vital to my *other* programming
