@@ -34,6 +34,7 @@
         inkscape
         refind
         efibootmgr
+        gparted
 
         # Programming & Development
         # Packages vital to my programming and game dev work.
