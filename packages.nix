@@ -59,6 +59,7 @@
         go
         erlang 
         python3
+        python311Packages.pip
         
         # Hacking & Pentesting
         # Packages vital to my *other* programming
