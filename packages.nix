@@ -58,6 +58,7 @@
         gleam
         go
         erlang 
+        python3
         
         # Hacking & Pentesting
         # Packages vital to my *other* programming
