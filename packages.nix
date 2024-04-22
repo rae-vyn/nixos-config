@@ -36,6 +36,7 @@
         efibootmgr
         gparted
         thinkfan
+        openttd
 
         # Programming & Development
         # Packages vital to my programming and game dev work.
