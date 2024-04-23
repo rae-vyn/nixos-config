@@ -65,6 +65,7 @@
         python311Packages.pip
         pkg-config
         zoxide
+        languagetool
         
         # Hacking & Pentesting
         # Packages vital to my *other* programming
