@@ -72,6 +72,7 @@
         nmap
         whois
         wireshark-qt
+        wireguard-tools
         
         # Computer Stuff
         # Drivers, interfaces, and the like
