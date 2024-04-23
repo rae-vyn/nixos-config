@@ -37,7 +37,6 @@
         gparted
         thinkfan
         openttd
-        libsForQt5.plasma-integration
 
         # Programming & Development
         # Packages vital to my programming and game dev work.
@@ -65,6 +64,7 @@
         python3
         python311Packages.pip
         pkg-config
+        zoxide
         
         # Hacking & Pentesting
         # Packages vital to my *other* programming
@@ -128,6 +128,7 @@
         fuse3 # Make filesystems in userspace
         starship # Rust Shell
         r2modman # Modding for steam games
+        libsForQt5.plasma-integration # Plasma browser integration
 
     
     ]; 
