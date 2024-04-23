@@ -37,6 +37,7 @@
         gparted
         thinkfan
         openttd
+        libsForQt5.plasma-integration
 
         # Programming & Development
         # Packages vital to my programming and game dev work.
