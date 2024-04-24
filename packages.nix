@@ -66,6 +66,7 @@
         pkg-config
         zoxide
         languagetool
+        nodejs_21
         
         # Hacking & Pentesting
         # Packages vital to my *other* programming
