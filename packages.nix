@@ -67,6 +67,7 @@
         zoxide
         languagetool
         nodejs_21
+        unzip
         
         # Hacking & Pentesting
         # Packages vital to my *other* programming
