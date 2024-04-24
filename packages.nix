@@ -112,6 +112,7 @@
         xsane
         swingsane
         libsForQt5.skanlite
+        libsForQt5.kalgebra
         toybox
         yabridge
         yabridgectl
