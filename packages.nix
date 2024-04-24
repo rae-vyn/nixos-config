@@ -124,6 +124,7 @@
         latte-dock
         tlp
         rpi-imager
+        lmms
 
         # Misc
         # Packages that are here just to do... stuff
