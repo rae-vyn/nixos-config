@@ -40,6 +40,7 @@
         nh
         pass
         gnupg
+        pinentry
 
         # Programming & Development
         # Packages vital to my programming and game dev work.
