@@ -38,6 +38,7 @@
         thinkfan
         openttd
         nh
+        pass
 
         # Programming & Development
         # Packages vital to my programming and game dev work.
