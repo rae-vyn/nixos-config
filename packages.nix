@@ -41,7 +41,6 @@
         pass
         gnupg
         pinentry
-        pinentry-curses
 
         # Programming & Development
         # Packages vital to my programming and game dev work.
