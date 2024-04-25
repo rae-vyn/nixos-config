@@ -126,6 +126,7 @@
         tlp
         rpi-imager
         lmms
+        vlc
 
         # Misc
         # Packages that are here just to do... stuff
