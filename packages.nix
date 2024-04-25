@@ -39,6 +39,7 @@
         openttd
         nh
         pass
+        gnupg
 
         # Programming & Development
         # Packages vital to my programming and game dev work.
