@@ -68,7 +68,7 @@
         languagetool
         nodejs_21
         unzip
-        albert
+        pypy3
         
         # Hacking & Pentesting
         # Packages vital to my *other* programming
