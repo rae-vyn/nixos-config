@@ -68,6 +68,7 @@
         languagetool
         nodejs_21
         unzip
+        albert
         
         # Hacking & Pentesting
         # Packages vital to my *other* programming
