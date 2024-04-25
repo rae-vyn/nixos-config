@@ -136,6 +136,12 @@
     #  thunderbird
     ];
   };
+  services.pcscd.enable = true;
+  programs.gnupg.agent = {
+    enable = true;
+    pinentryFlavor = "curses";
+    enableSSHSupport = true;
+  };
   services.nscd.enable = true;
   system.nssDatabases.hosts = ["" ""];
   services.hardware.openrgb.enable = true;
