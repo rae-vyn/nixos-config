@@ -142,6 +142,7 @@
         r2modman # Modding for steam games
         libsForQt5.plasma-integration # Plasma browser integration
         ahoviewer
+        imgbrd-grabber
     
     ]; 
 }
