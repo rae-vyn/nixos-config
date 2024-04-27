@@ -41,6 +41,7 @@
         pass
         gnupg
         pinentry
+        obs-studio
 
         # Programming & Development
         # Packages vital to my programming and game dev work.
