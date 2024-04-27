@@ -1,4 +1,7 @@
 { pkgs, ...}:
+let
+    unstable = import <nixos-unstable> { config = { allowUnfree = true; }; };
+in
 {
     environment.systemPackages = with pkgs; [
         # Daily Drivers
@@ -52,7 +55,7 @@
         python3
         godot_4
         yt-dlp
-        vscode
+        unstable.vscode
         rustup
         gcc
         zig
