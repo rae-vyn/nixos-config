@@ -164,7 +164,8 @@
   };
 
   nixpkgs.config.permittedInsecurePackages = [
-     "electron-25.9.0"
+     "electron-25.9.0",
+     "pulsar-1.114.0"
   ];
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
