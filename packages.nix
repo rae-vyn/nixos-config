@@ -74,6 +74,8 @@
         nodejs_21
         unzip
         pypy3
+        carapace
+        libsForQt5.kclock
         
         # Hacking & Pentesting
         # Packages vital to my *other* programming
