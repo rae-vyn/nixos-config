@@ -59,6 +59,7 @@
         authenticator
         gdtoolkit
         kitty
+        alacritty
         wezterm
         morgen
         rogue
