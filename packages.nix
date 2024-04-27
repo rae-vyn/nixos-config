@@ -55,7 +55,7 @@ in
         python3
         godot_4
         yt-dlp
-        unstable.vscode
+        vscode
         rustup
         gcc
         zig
@@ -80,7 +80,7 @@ in
         pypy3
         carapace
         libsForQt5.kclock
-        pulsar
+        libsForQt5.kate
         
         # Hacking & Pentesting
         # Packages vital to my *other* programming
