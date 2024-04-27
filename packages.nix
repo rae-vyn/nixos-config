@@ -77,6 +77,7 @@
         pypy3
         carapace
         libsForQt5.kclock
+        pulsar
         
         # Hacking & Pentesting
         # Packages vital to my *other* programming
