@@ -1,6 +1,10 @@
 {config, pkgs, ...}: let
    unstable = import
-    (builtins.fetchTarball https://nixos.org/channels/nixpkgs-unstable )
+    (builtins.fetchTarball {
+        url=https://nixos.org/channels/nixpkgs-unstable,
+        sha256="55ddd3b3f9ae20cffd52523c9fe75b7f3e4abd0b002fd6ec1e912e46c6e0c40d"
+      }
+    )
     # reuse the current configuration
     { config = config.nixpkgs.config; };
 in {
