@@ -187,6 +187,7 @@
   };
   environment.sessionVariables = {
     NIXOS_OZONE_WL = "1";
+    RUSTC_WRAPPER = "sccache";
   };
 
   services.dbus.enable = true;
