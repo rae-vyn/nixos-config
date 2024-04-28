@@ -40,6 +40,7 @@ in {
     pinentry
     obs-studio
     openssl
+    unstable.porsmo
 
     # Programming & Development
     # Packages vital to my programming and game dev work.
