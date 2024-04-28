@@ -1,17 +1,19 @@
 # Edit this configuration file to define what should be installed on
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
-
-{ config, pkgs, options, ... }:
-
 {
-  imports =
-    [ # Include the results of the hardware scan.
-      ./hardware-configuration.nix
-      ./packages.nix
-      ./nitter.nix
-      ./cerebro.nix
-    ];
+  config,
+  pkgs,
+  options,
+  ...
+}: {
+  imports = [
+    # Include the results of the hardware scan.
+    ./hardware-configuration.nix
+    ./packages.nix
+    ./nitter.nix
+    ./cerebro.nix
+  ];
   musnix.enable = true;
   hardware.bluetooth = {
     enable = true;
@@ -31,7 +33,7 @@
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
-  boot.kernelParams = [ "nvme_core.default_ps_max_latency_us=8000" ];
+  boot.kernelParams = ["nvme_core.default_ps_max_latency_us=8000"];
   networking.hostName = "raevyn-pc"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
   # testing the new script! again!
@@ -73,7 +75,7 @@
     layout = "us";
     xkbVariant = "";
   };
-  
+
   virtualisation.docker.enable = true;
   services.tlp.enable = false;
 
@@ -108,14 +110,14 @@
     #media-session.enable = true;
   };
   services.pipewire.wireplumber.configPackages = [
-	(pkgs.writeTextDir "share/wireplumber/bluetooth.lua.d/51-bluez-config.lua" ''
-		bluez_monitor.properties = {
-			["bluez5.enable-sbc-xq"] = true,
-			["bluez5.enable-msbc"] = true,
-			["bluez5.enable-hw-volume"] = true,
-			["bluez5.headset-roles"] = "[ hsp_hs hsp_ag hfp_hf hfp_ag ]"
-		}
-	'')
+    (pkgs.writeTextDir "share/wireplumber/bluetooth.lua.d/51-bluez-config.lua" ''
+      bluez_monitor.properties = {
+      	["bluez5.enable-sbc-xq"] = true,
+      	["bluez5.enable-msbc"] = true,
+      	["bluez5.enable-hw-volume"] = true,
+      	["bluez5.headset-roles"] = "[ hsp_hs hsp_ag hfp_hf hfp_ag ]"
+      }
+    '')
   ];
 
   programs.dconf.enable = true;
@@ -130,10 +132,10 @@
   users.users.raevyn = {
     isNormalUser = true;
     description = "Raevyn";
-    extraGroups = [ "networkmanager" "wheel" "audio"];
+    extraGroups = ["networkmanager" "wheel" "audio"];
     packages = with pkgs; [
       firefox
-    #  thunderbird
+      #  thunderbird
     ];
   };
   services.pcscd.enable = true;
@@ -164,8 +166,8 @@
   };
 
   nixpkgs.config.permittedInsecurePackages = [
-     "electron-25.9.0"
-     "pulsar-1.114.0"
+    "electron-25.9.0"
+    "pulsar-1.114.0"
   ];
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
@@ -174,7 +176,7 @@
   #   enable = true;
   #   enableSSHSupport = true;
   # };
-  
+
   programs.hyprland = {
     enable = true;
     xwayland.enable = true;
@@ -222,5 +224,4 @@
   # Before changing this value read the documentation for this option
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
   system.stateVersion = "23.11"; # Did you read the comment?
-
 }
