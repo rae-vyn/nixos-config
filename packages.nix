@@ -10,11 +10,7 @@ in
         obsidian
         logseq
         steam
-        (
-            discord.override {
-                withVencord = true;
-            }
-        )
+        discord
         mpv
         dolphin # File Manager
         libreoffice
