@@ -1,4 +1,4 @@
-{pkgs, ...}: let
+{config, pkgs, ...}: let
    unstable = import
     (builtins.fetchTarball https://nixos.org/channels/nixpkgs-unstable )
     # reuse the current configuration
