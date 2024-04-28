@@ -43,6 +43,7 @@ in {
     # Programming & Development
     # Packages vital to my programming and game dev work.
     # ---------------------------------------------------------------
+    neovide
     git
     gitFull
     github-desktop
