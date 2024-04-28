@@ -77,6 +77,7 @@ in
         carapace
         libsForQt5.kclock
         libsForQt5.kate
+        alejandra
         
         # Hacking & Pentesting
         # Packages vital to my *other* programming
