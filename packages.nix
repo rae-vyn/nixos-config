@@ -1,5 +1,8 @@
 {pkgs, ...}: let
-  unstable = import <nixos-unstable> {config = {allowUnfree = true;};};
+   unstable = import
+    (builtins.fetchTarball https://nixos.org/channels/nixpkgs-unstable )
+    # reuse the current configuration
+    { config = config.nixpkgs.config; };
 in {
   environment.systemPackages = with pkgs; [
     # Daily Drivers
