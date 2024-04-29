@@ -40,7 +40,10 @@ in {
     pinentry
     obs-studio
     openssl
-    unstable.porsmo
+    porsmo
+    freeglut
+    libGL
+    gimp
 
     # Programming & Development
     # Packages vital to my programming and game dev work.
@@ -79,6 +82,7 @@ in {
     libsForQt5.kclock
     libsForQt5.kate
     alejandra
+    unstable.exercism
 
     # Hacking & Pentesting
     # Packages vital to my *other* programming
