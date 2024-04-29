@@ -82,7 +82,7 @@ in {
     libsForQt5.kclock
     libsForQt5.kate
     alejandra
-    unstable.exercism
+    exercism
 
     # Hacking & Pentesting
     # Packages vital to my *other* programming
