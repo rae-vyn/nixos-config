@@ -34,6 +34,7 @@
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
   boot.kernelParams = ["nvme_core.default_ps_max_latency_us=8000"];
+  boot.kernelModules = ["amdgpu"];
   networking.hostName = "raevyn-pc"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
   # testing the new script! again!
