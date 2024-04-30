@@ -32,7 +32,6 @@ in {
     refind
     efibootmgr
     gparted
-    thinkfan
     openttd
     nh
     pass
