@@ -77,8 +77,13 @@
   };
 
   virtualisation.docker.enable = true;
-  services.tlp.enable = true;
+  # Power/Temp Management
+  services.tlp.enable = false;
   services.power-profiles-daemon.enable = false;
+  powerManagement = {
+    enable = true;
+    powertop.enable = true;
+  };
 
   # Enable CUPS to print documents.
   services.printing.enable = true;
