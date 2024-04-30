@@ -106,6 +106,8 @@ in {
     glava
     powertop
     traceroute
+    power-profiles-daemon
+    
 
     # Command Line Utilities
     # Packages that enhance my command line experience
