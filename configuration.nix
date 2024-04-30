@@ -81,10 +81,11 @@
   # Power/Temp Management
   services.tlp.enable = false;
   services.power-profiles-daemon.enable = false;
-  powerManagement = {
-    enable = true;
-    powertop.enable = true;
-  };
+  services.auto-cpufreq.enable = true;
+  # powerManagement = {
+    # enable = true;
+    # powertop.enable = true;
+  # };
 
   # Enable CUPS to print documents.
   services.printing.enable = true;
