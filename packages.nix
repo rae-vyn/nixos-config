@@ -104,6 +104,7 @@ in {
     libsForQt5.qtstyleplugin-kvantum
     libsForQt5.applet-window-buttons
     glava
+    powertop
     traceroute
 
     # Command Line Utilities
