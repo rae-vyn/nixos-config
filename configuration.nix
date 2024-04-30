@@ -77,7 +77,7 @@
   };
 
   virtualisation.docker.enable = true;
-  services.tlp.enable = false;
+  services.tlp.enable = true;
 
   # Enable CUPS to print documents.
   services.printing.enable = true;
