@@ -78,6 +78,7 @@
 
   virtualisation.docker.enable = true;
   services.tlp.enable = true;
+  services.power-profile-daemon.enable = false;
 
   # Enable CUPS to print documents.
   services.printing.enable = true;
