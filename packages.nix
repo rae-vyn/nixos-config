@@ -82,6 +82,7 @@ in {
     libsForQt5.kate
     alejandra
     exercism
+    nodePackages.vercel
 
     # Hacking & Pentesting
     # Packages vital to my *other* programming
