@@ -50,7 +50,7 @@
   services.rpcbind.enable = true;
   fileSystems."/mnt/NASty" = {
     device = "raspberrypi.local:/NASty";
-    fsType = "nfs";
+    fsType = lib.mkDefault "nfs";
   };
 
   # Set your time zone.
