@@ -5,6 +5,7 @@
   config,
   pkgs,
   options,
+  lib,
   ...
 }: {
   imports = [
@@ -83,8 +84,8 @@
   services.power-profiles-daemon.enable = false;
   services.auto-cpufreq.enable = true;
   # powerManagement = {
-    # enable = true;
-    # powertop.enable = true;
+  # enable = true;
+  # powertop.enable = true;
   # };
 
   # Enable CUPS to print documents.
