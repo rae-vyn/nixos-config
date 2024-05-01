@@ -83,6 +83,7 @@ in {
     alejandra
     exercism
     nodePackages.vercel
+    hunspell
 
     # Hacking & Pentesting
     # Packages vital to my *other* programming
