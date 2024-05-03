@@ -84,6 +84,7 @@ in {
     exercism
     nodePackages.vercel
     hunspell
+    sccache
 
     # Hacking & Pentesting
     # Packages vital to my *other* programming
@@ -109,7 +110,6 @@ in {
     powertop
     traceroute
     power-profiles-daemon
-    
 
     # Command Line Utilities
     # Packages that enhance my command line experience
