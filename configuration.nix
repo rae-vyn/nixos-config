@@ -198,7 +198,8 @@
     NIXOS_OZONE_WL = "1";
     RUSTC_WRAPPER = "sccache";
     PKG_CONFIG_PATH = "${pkgs.openssl.dev}/lib/pkgconfig";
-    OPENSSL_DIR = pkgs.openssl.dev;
+    OPENSSL_DIR = "${pkgs.openssl.dev}";
+    OPENSSL_LIB_DIR = "${pkgs.openssl.dev}/lib";
   };
 
   services.dbus.enable = true;
