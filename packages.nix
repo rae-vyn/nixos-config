@@ -85,6 +85,7 @@ in {
     nodePackages.vercel
     hunspell
     sccache
+    direnv
 
     # Hacking & Pentesting
     # Packages vital to my *other* programming
