@@ -197,12 +197,9 @@
   environment.sessionVariables = {
     NIXOS_OZONE_WL = "1";
     RUSTC_WRAPPER = "sccache";
-    
   };
   environment.variables = {
-    OPENSSL_DIR="${pkgs.openssl.dev}";
-    OPENSSL_LIB_DIR="${pkgs.openssl.out}/lib";
-    PKG_CONFIG_DIR="${pkgs.openssl.out}/lib/pkgconfig";
+    PKG_CONFIG_DIR = "${pkgs.openssl.out}/lib/pkgconfig";
   };
 
   services.dbus.enable = true;
