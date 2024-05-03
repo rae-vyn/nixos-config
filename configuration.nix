@@ -197,7 +197,7 @@
   environment.sessionVariables = {
     NIXOS_OZONE_WL = "1";
     RUSTC_WRAPPER = "sccache";
-    PCK_CONFIG_PATH = "${pkgs.openssl.dev}/lib/pkgconfig";
+    PKG_CONFIG_PATH = "${pkgs.openssl.dev}/lib/pkgconfig";
   };
 
   services.dbus.enable = true;
