@@ -129,6 +129,7 @@
     '')
   ];
 
+  qt.enable = true;
   programs.dconf.enable = true;
   programs.coolercontrol.enable = true;
   services.xserver.enable = true;
@@ -213,8 +214,6 @@
       pkgs.xdg-desktop-portal-gtk
     ];
   };
-  qt.enable = true;
-  programs.dconf.enable = true;
 
   nix.settings = {
     substituters = ["https://hyprland.cachix.org"];
