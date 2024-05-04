@@ -42,6 +42,7 @@ in {
     freeglut
     libGL
     gimp
+    telegram-desktop
 
     # Programming & Development
     # Packages vital to my programming and game dev work.
