@@ -213,6 +213,7 @@
       pkgs.xdg-desktop-portal-gtk
     ];
   };
+  qt.enable = true;
 
   nix.settings = {
     substituters = ["https://hyprland.cachix.org"];
