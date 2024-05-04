@@ -38,7 +38,6 @@ in {
     gnupg
     pinentry
     obs-studio
-    openssl
     porsmo
     freeglut
     libGL
@@ -71,7 +70,6 @@ in {
     erlang
     python3
     python311Packages.pip
-    pkg-config
     zoxide
     languagetool
     nodejs_21
