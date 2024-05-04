@@ -214,6 +214,7 @@
     ];
   };
   qt.enable = true;
+  programs.dconf.enable = true;
 
   nix.settings = {
     substituters = ["https://hyprland.cachix.org"];
