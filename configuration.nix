@@ -129,7 +129,11 @@
     '')
   ];
 
-  qt.enable = true;
+  qt = {
+    enable = true;
+    platformTheme = "gnome";
+    style = "adwaita-dark";
+  };
   programs.dconf.enable = true;
   programs.coolercontrol.enable = true;
   services.xserver.enable = true;
