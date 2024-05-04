@@ -199,7 +199,7 @@
     RUSTC_WRAPPER = "sccache";
   };
   environment.variables = {
-    PKG_CONFIG_DIR = "${pkgs.openssl.out}/lib/pkgconfig";
+    #PKG_CONFIG_DIR = "${pkgs.openssl.out}/lib/pkgconfig";
   };
   services.dbus.enable = true;
   services.dbus.packages = [
