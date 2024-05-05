@@ -135,6 +135,7 @@ in
     libsForQt5.skanlite
     libsForQt5.kalgebra
     libsForQt5.qt5ct
+    gradience
     toybox
     yabridge
     yabridgectl
