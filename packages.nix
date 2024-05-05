@@ -136,6 +136,7 @@ in
     libsForQt5.kalgebra
     libsForQt5.qt5ct
     gradience
+    gnome.adwaita-icon-theme
     toybox
     yabridge
     yabridgectl
