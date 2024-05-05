@@ -85,6 +85,7 @@ in {
     hunspell
     sccache
     direnv
+    helix
 
     # Hacking & Pentesting
     # Packages vital to my *other* programming
