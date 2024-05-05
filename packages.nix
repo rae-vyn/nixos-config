@@ -1,6 +1,8 @@
-{pkgs, ...}: let
-  unstable = import <nixos-unstable> {config = {allowUnfree = true;};};
-in {
+{ pkgs, ... }:
+let
+  unstable = import <nixos-unstable> { config = { allowUnfree = true; }; };
+in
+{
   environment.systemPackages = with pkgs; [
     # Daily Drivers
     # Packages I use every day, or something like it.
@@ -132,6 +134,7 @@ in {
     swingsane
     libsForQt5.skanlite
     libsForQt5.kalgebra
+    libsForQt5.qt5ct
     toybox
     yabridge
     yabridgectl
