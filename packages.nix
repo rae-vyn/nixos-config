@@ -86,6 +86,7 @@ in {
     sccache
     direnv
     helix
+    arduino
 
     # Hacking & Pentesting
     # Packages vital to my *other* programming
