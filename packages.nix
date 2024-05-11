@@ -88,6 +88,7 @@ in {
     helix
     arduino
     pika-backup
+    tidal-dl
 
     # Hacking & Pentesting
     # Packages vital to my *other* programming
