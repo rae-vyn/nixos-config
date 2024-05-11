@@ -1,6 +1,8 @@
-{pkgs, ...}: let
-  unstable = import <nixos-unstable> {config = {allowUnfree = true;};};
-in {
+{ pkgs, ... }:
+let
+  unstable = import <nixos-unstable> { config = { allowUnfree = true; }; };
+in
+{
   environment.systemPackages = with pkgs; [
     # Daily Drivers
     # Packages I use every day, or something like it.
@@ -24,7 +26,7 @@ in {
     rpcs3
     thunderbird
     nushell
-    bitwig-studio
+    unstable.bitwig-studio
     audacious
     cemu
     lmms
