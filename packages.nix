@@ -87,6 +87,7 @@ in {
     direnv
     helix
     arduino
+    pika-backup
 
     # Hacking & Pentesting
     # Packages vital to my *other* programming
