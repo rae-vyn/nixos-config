@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#
+work_dir=$(pwd)
+cd ~/etc/nixos/ && git diff
+echo "NixOS Rebuilding..."
+nh os switch ~/etc/nixos -- --impure
+gen=$(nixos-rebuild list-generations | grep current)
+git commit -am "$gen" && cd $work_dir
