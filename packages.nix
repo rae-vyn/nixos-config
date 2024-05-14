@@ -91,6 +91,7 @@ in
     arduino
     pika-backup
     tidal-dl
+    gh
 
     # Hacking & Pentesting
     # Packages vital to my *other* programming
