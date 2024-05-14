@@ -14,7 +14,7 @@
     ./packages.nix
     ./nitter.nix
     ./cerebro.nix
-    <musnix>
+    ~/musnix
   ];
   musnix.enable = true;
   hardware.bluetooth = {
