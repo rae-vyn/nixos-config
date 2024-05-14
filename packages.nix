@@ -92,7 +92,7 @@ in
     pika-backup
     tidal-dl
     gh
-    ulauncher
+    unstable.ulauncher
 
     # Hacking & Pentesting
     # Packages vital to my *other* programming
