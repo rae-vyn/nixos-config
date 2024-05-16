@@ -43,7 +43,6 @@ in {
     libGL
     gimp
     rmlint
-    etcher
 
     # Programming & Development
     # Packages vital to my programming and game dev work.
