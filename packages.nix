@@ -1,8 +1,6 @@
-{ pkgs, ... }:
-let
-  unstable = import <nixos-unstable> { config = { allowUnfree = true; }; };
-in
-{
+{pkgs, ...}: let
+  unstable = import <nixos-unstable> {config = {allowUnfree = true;};};
+in {
   environment.systemPackages = with pkgs; [
     # Daily Drivers
     # Packages I use every day, or something like it.
@@ -45,6 +43,7 @@ in
     libGL
     gimp
     rmlint
+    etcher
 
     # Programming & Development
     # Packages vital to my programming and game dev work.
