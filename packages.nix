@@ -43,6 +43,7 @@ in {
     libGL
     gimp
     rmlint
+    unstable.caligula
 
     # Programming & Development
     # Packages vital to my programming and game dev work.
